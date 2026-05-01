@@ -29,6 +29,53 @@ type UserProfile = {
   role?: string;
 };
 
+const getTopicDescription = (topic: Topic) => {
+  if (topic.content && topic.content.includes('# ')) {
+    // In case actual descriptions are added later
+  }
+  
+  const t = topic.title.toLowerCase();
+  
+  if (t.includes('urgensi') || t.includes('disrupsi')) return 'Mempelajari materi ini membuka wawasan kepemimpinan tentang seberapa vital adaptasi digital untuk mencegah kemunduran pendaftar.';
+  if (t.includes('promosi') || t.includes('marketing') || t.includes('iklan')) return 'Esensial untuk dikuasai agar biaya iklan dan promosi sekolah tidak terbuang sia-sia pada audiens yang salah sasaran.';
+  if (t.includes('pergeseran') || t.includes('behavior')) return 'Fokus pada pola ini akan membantu Anda membaca arah tren perilaku orang tua modern dalam memilih institusi untuk anak mereka.';
+  if (t.includes('kesenjangan') || t.includes('divide')) return 'Identifikasi dan atasi celah teknologi di internal sekolah agar masa transisi tidak membebani guru yang belum siap.';
+  if (t.includes('roi') || t.includes('anggaran') || t.includes('keuangan')) return 'Modul ini membantu merestrukturisasi APBS dan menghemat ratusan juta dengan hilangnya pemborosan kertas dan birokrasi manual.';
+  if (t.includes('visi') || t.includes('blueprint')) return 'Langkah strategis wajib bagi pimpinan yayasan menyusun peta jalan jangka panjang agar seluruh elemen bergerak serempak.';
+  if (t.includes('task force') || t.includes('tim')) return 'Rahasia membentuk skuad perintis digital mandiri di dalam institusi yang sanggup mengawal transisi tanpa butuh konsultan luar.';
+  if (t.includes('resistensi') || t.includes('senior')) return 'Pendekatan psikologis krusial untuk meluruskan persepsi guru purna waktu agar merangkul perubahan tanpa merasa tersingkirkan.';
+  if (t.includes('studi kasus')) return 'Belajar langsung dari keberhasilan maupun kesalahan institusi nyata, guna mencegah kerugian besar saat awal implementasi.';
+  
+  if (t.includes('anatomi') || t.includes('infrastruktur')) return 'Materi fondasi ini wajib dipahami untuk mengetahui fitur sistem sekolah apa saja yang terpenting saat pengadaan awal.';
+  if (t.includes('sentralisasi') || t.includes('terpadu')) return 'Anda akan menyadari pentingnya satu pangkalan data master agar kasus miskomunikasi antar unit tidak lagi terjadi.';
+  if (t.includes('raport') || t.includes('akademik') || t.includes('guru')) return 'Sistem ini dikupas untuk mereduksi beban guru menjelang ujian, sehingga mereka berfokus murni pada pendampingan siswa.';
+  if (t.includes('server') || t.includes('cloud') || t.includes('saas')) return 'Pencerdasan arsitektur ini membentengi sistem Anda dengan pilihan infrastruktur pengolahan data yang stabil dan tahan lama.';
+  if (t.includes('hak akses') || t.includes('role')) return 'Sangat kritikal untuk melindungi kerahasiaan direktori data dari campur tangan atau manipulasi oknum internal yang tak berwenang.';
+  if (t.includes('keamanan') || t.includes('privasi')) return 'Modul perlindungan ini mengamankan marwah sekolah dari ancaman tuntutan cyber dan kebocoran identitas dokumen vital.';
+  if (t.includes('backup') || t.includes('bencana')) return 'Bangun asuransi cadangan mutlak agar histori akademik dari dekade lalu langsung kembali utuh jika ada musibah pada server.';
+  if (t.includes('hardware') || t.includes('perangkat')) return 'Taktik belanja alat IT berorientasi efisiensi untuk memperoleh sarana absen, komputer, dan perute nirkabel yang sepadan.';
+  if (t.includes('wi-fi') || t.includes('internet')) return 'Kuasai manajeman lalu lintas jaringan agar bandwidth di lingkungan edukasi Anda tidak tersabotase perangkat yang tidak dikenal.';
+
+  if (t.includes('branding') || t.includes('brand')) return 'Dapatkan formula meracik citra publik yang elegan, memastikan institusi selalu jadi pilihan pertama di wilayah operasional Anda.';
+  if (t.includes('seo') || t.includes('website')) return 'Kuasai taktik mengubah halaman sekolah dari etalase pasif menjadi mesin penjaring prospek nama pendaftar setiap saat.';
+  if (t.includes('sosial media') || t.includes('sosmed') || t.includes('tiktok') || t.includes('instagram')) return 'Strategi komunikasi efektif untuk menjaga keintiman dengan siswa muda, tanpa pernah membahayakan kesopanan dan otoritas Anda.';
+  if (t.includes('jurnalisme') || t.includes('pr ') || t.includes('reputasi')) return 'Panduan navigasi penanganan krisis public relation; cara membendung hoaks serta ulasan negatif yang mengancam kredibilitas.';
+  if (t.includes('ppdb') || t.includes('penerimaan')) return 'Penting bagi kepanitiaan mendalami arus pendaftaran hulu ke hilir otomatis guna merebut pangsa pasar dari sekolah pesaing.';
+  if (t.includes('ads') || t.includes('iklan')) return 'Edukasi investasi yang memagari dana yayasan dari risiko kampanye digital yang mahal namun sepi dari lonjakan pendaftar riil.';
+  if (t.includes('crm') || t.includes('pelayanan') || t.includes('wali murid')) return 'Prioritaskan ikatan kepuasan orang tua yang akan menyulap mereka jadi corong promosi sukarela paling diandalkan yayasan Anda.';
+  if (t.includes('data') || t.includes('analytics') || t.includes('audit')) return 'Kemuncak dari literasi digitalisasi; bacaan analitik level dewan direksi guna menyesuaikan kebijakan masa depan yang paling akurat.';
+
+  const hash = t.length % 5;
+  const fallbacks = [
+    'Pahami muatan intinya sehingga Anda terhindar dari pemborosan pengelolaan dan bergegas merenungkan solusi teknis modern.',
+    'Menyelami metodologi krusial di materi ini akan melontarkan mutu administrasi harian yayasan Anda selangkah lebih kompetitif.',
+    'Pelajari ringkasan skema ini demi mendepak kelambanan staf tata usaha dan menggantikannya dengan alur otomasi yang responsif.',
+    'Pastikan wawasan ini ditelaah seksama guna mengurai sekelumit kebuntutan sistem lama, menuju kemerdekaan interaksi digital.',
+    'Simak wawasan penting dari bab ini untuk menuntun penentuan arah komando operasional di tengah desakan era disrupsi edukasi.'
+  ];
+  return fallbacks[hash];
+};
+
 export default function App() {
   const [activeModule, setActiveModule] = useState<Module | null>(null);
   const [activeTopic, setActiveTopic] = useState<Topic | null>(null);
@@ -54,6 +101,15 @@ export default function App() {
 
   const closeModuleDrawer = () => setActiveModule(null);
   const closeTopicViewer = () => setActiveTopic(null);
+
+  const openNextTopic = () => {
+    if (!activeTopic) return;
+    const allTopics = COURSE_CONTENT.flatMap(m => m.topics);
+    const currentIndex = allTopics.findIndex(t => t.id === activeTopic.id);
+    if (currentIndex >= 0 && currentIndex < allTopics.length - 1) {
+      setActiveTopic(allTopics[currentIndex + 1]);
+    }
+  };
 
   useEffect(() => {
     const saved = localStorage.getItem('digilearn_user');
@@ -454,25 +510,77 @@ export default function App() {
             </div>
           )}
 
+          {mobileTab === 'ai' && (
+            <div className="animate-in fade-in slide-in-from-bottom-2 duration-500 h-full flex flex-col relative pb-4 md:min-h-[600px] min-h-[75vh]">
+               {/* AI Mentor Screen */}
+               <div className="pt-6 flex-1 flex flex-col">
+                 <div className="bg-gradient-to-b from-blue-50 to-transparent p-6 rounded-[28px] mb-4 text-center border border-blue-100/50 relative overflow-hidden">
+                   <div className="w-16 h-16 bg-white rounded-2xl flex items-center justify-center mx-auto mb-3 shadow-md border border-slate-100 text-blue-600 rotate-3">
+                     <Bot size={32} />
+                   </div>
+                   <h2 className="text-[20px] font-extrabold text-slate-900 mb-1">AI Mentor DigiLearn</h2>
+                   <p className="text-slate-500 text-xs leading-relaxed max-w-[250px] mx-auto">Asisten virtual yang siap bantu diskusikan semua materi hingga tuntas.</p>
+                 </div>
+                 
+                 <div className="flex-1 flex flex-col items-center justify-center text-center px-4 mt-8 opacity-60">
+                    <MessageSquare size={32} className="text-slate-300 mb-3" />
+                    <p className="text-sm font-bold text-slate-700">Belum ada obrolan</p>
+                    <p className="text-xs text-slate-500 mt-1">Mulai tanyakan seputar materi ke AI Mentor.</p>
+                 </div>
+                 
+                 <div className="mt-auto pt-4 px-1 sticky bottom-4 z-40">
+                   <div className="bg-white p-2.5 rounded-2xl border border-slate-200 shadow-lg shadow-slate-200/50 flex items-end gap-2">
+                      <div className="flex-1">
+                        <textarea 
+                          rows={1}
+                          placeholder="Tanya mentor..."
+                          className="w-full px-3 py-2 text-sm text-slate-700 bg-transparent resize-none focus:outline-none placeholder:text-slate-400 max-h-[100px]"
+                        ></textarea>
+                      </div>
+                      <button className="p-2.5 bg-gradient-to-br from-blue-600 to-indigo-600 flex-shrink-0 text-white rounded-xl shadow-md shadow-blue-500/30 active:scale-95 transition-transform disabled:opacity-50 flex items-center justify-center min-w-[40px]">
+                        <Send size={18} />
+                      </button>
+                   </div>
+                 </div>
+               </div>
+            </div>
+          )}
+
         </main>
 
         {/* BOTTOM NAVIGATION (Absolute within frame) */}
-        <nav className="absolute bottom-0 left-0 right-0 bg-white/95 backdrop-blur-xl border-t border-slate-200/60 z-40 pb-5 pt-3 px-6 flex justify-between items-center md:rounded-b-[28px]">
-          {[
-            { id: 'home', icon: Home, label: 'Beranda' },
-            { id: 'courses', icon: Compass, label: 'Eksplor' },
-            { id: 'dashboard', icon: LayoutDashboard, label: 'Progres' },
-            { id: 'profile', icon: User, label: 'Profil' }
-          ].map((item) => (
+        <nav className="absolute bottom-0 left-0 right-0 bg-white/95 backdrop-blur-xl border-t border-slate-200/60 z-40 pb-6 pt-3 px-3 flex justify-between items-end md:rounded-b-[28px]">
+          
+          <button onClick={() => setMobileTab('home')} className={`flex flex-col items-center gap-1 p-1 w-[4rem] transition-colors ${mobileTab === 'home' ? 'text-blue-600' : 'text-slate-400 hover:text-slate-600'}`}>
+            <Home size={24} className={`${mobileTab === 'home' ? 'fill-blue-600/20 scale-110' : 'scale-100'} transition-all`} />
+            <span className="text-[10px] font-bold tracking-wide mt-0.5">Beranda</span>
+          </button>
+          
+          <button onClick={() => setMobileTab('courses')} className={`flex flex-col items-center gap-1 p-1 w-[4rem] transition-colors ${mobileTab === 'courses' ? 'text-blue-600' : 'text-slate-400 hover:text-slate-600'}`}>
+            <Compass size={24} className={`${mobileTab === 'courses' ? 'fill-blue-600/20 scale-110' : 'scale-100'} transition-all`} />
+            <span className="text-[10px] font-bold tracking-wide mt-0.5">Eksplor</span>
+          </button>
+
+          <div className="w-[4rem] flex flex-col items-center justify-end relative h-full">
             <button 
-              key={item.id}
-              onClick={() => setMobileTab(item.id)} 
-              className={`flex flex-col items-center gap-1 p-1 transition-colors ${mobileTab === item.id ? 'text-blue-600' : 'text-slate-400 hover:text-slate-600'}`}
+              onClick={() => setMobileTab('ai')} 
+              className={`absolute -top-6 w-[56px] h-[56px] rounded-full flex items-center justify-center shadow-lg border-[4px] border-white active:scale-95 transition-transform z-50 ${mobileTab === 'ai' ? 'bg-gradient-to-tr from-indigo-700 to-purple-700 text-white shadow-indigo-500/40 translate-y-1' : 'bg-gradient-to-tr from-blue-600 to-indigo-600 text-white shadow-blue-500/40'}`}
             >
-              <item.icon size={22} className={`${mobileTab === item.id ? 'fill-blue-600/20' : ''} transition-all ${mobileTab === item.id ? 'scale-110' : 'scale-100'}`} />
-              <span className="text-[10px] font-bold tracking-wide mt-0.5">{item.label}</span>
+              <Bot size={26} className={mobileTab === 'ai' ? 'animate-pulse' : ''} />
             </button>
-          ))}
+            <span className={`text-[10px] font-bold tracking-wide mt-8 ${mobileTab === 'ai' ? 'text-blue-600' : 'text-slate-400'}`}>Mentor</span>
+          </div>
+
+          <button onClick={() => setMobileTab('dashboard')} className={`flex flex-col items-center gap-1 p-1 w-[4rem] transition-colors ${mobileTab === 'dashboard' ? 'text-blue-600' : 'text-slate-400 hover:text-slate-600'}`}>
+            <LayoutDashboard size={24} className={`${mobileTab === 'dashboard' ? 'fill-blue-600/20 scale-110' : 'scale-100'} transition-all`} />
+            <span className="text-[10px] font-bold tracking-wide mt-0.5">Progres</span>
+          </button>
+
+          <button onClick={() => setMobileTab('profile')} className={`flex flex-col items-center gap-1 p-1 w-[4rem] transition-colors ${mobileTab === 'profile' ? 'text-blue-600' : 'text-slate-400 hover:text-slate-600'}`}>
+            <User size={24} className={`${mobileTab === 'profile' ? 'fill-blue-600/20 scale-110' : 'scale-100'} transition-all`} />
+            <span className="text-[10px] font-bold tracking-wide mt-0.5">Profil</span>
+          </button>
+
         </nav>
 
         {/* MODULE DRAWER OVERLAY */}
@@ -543,8 +651,11 @@ export default function App() {
                               {topic.level}
                             </span>
                           </div>
-                          <h4 className={`font-bold text-[13px] leading-tight line-clamp-2 pr-2 ${topic.content ? 'text-slate-800' : 'text-slate-600'}`}>{topic.title}</h4>
-                          <div className="flex items-center gap-3 mt-2 text-slate-500 text-[10px] font-bold">
+                          <h4 className={`font-bold text-[13px] leading-tight pr-2 ${topic.content ? 'text-slate-800' : 'text-slate-600'}`}>{topic.title}</h4>
+                          <p className="text-[11px] text-slate-500 font-medium leading-relaxed mt-1.5 mb-2.5">
+                            {getTopicDescription(topic)}
+                          </p>
+                          <div className="flex items-center gap-3 text-slate-500 text-[10px] font-bold">
                             <span className="flex items-center gap-1"><Clock size={12} /> {topic.duration}</span>
                             {topic.content ? (
                               <span className="flex items-center gap-1 text-blue-500"><FileText size={12} /> Teks Lengkap</span>
@@ -586,7 +697,10 @@ export default function App() {
                   </button>
                   <h3 className="font-bold text-slate-900 truncate text-[12px] opacity-80">{activeTopic.title}</h3>
                 </div>
-                <button className="flex-shrink-0 bg-emerald-500 text-white px-3 py-1.5 rounded-xl font-bold text-[10px] flex items-center gap-1.5 shadow-sm active:scale-95 uppercase tracking-wider">
+                <button 
+                  onClick={closeTopicViewer}
+                  className="flex-shrink-0 bg-emerald-500 text-white px-3 py-1.5 rounded-xl font-bold text-[10px] flex items-center gap-1.5 shadow-sm active:scale-95 uppercase tracking-wider"
+                >
                   <CheckCircle2 size={12} /> Selesai
                 </button>
               </div>
@@ -594,17 +708,16 @@ export default function App() {
               {/* Content Scroll Area */}
               <div className="flex-1 overflow-y-auto bg-slate-50 scroll-smooth w-full relative">
                 <div className="w-full mx-auto py-6 px-5">
-                  <div className="mb-6">
-                    <div className="flex flex-wrap items-center gap-2 mb-3">
+                  <div className="mb-4">
+                    <div className="flex flex-wrap items-center gap-2">
                       <span className="px-2.5 py-1 bg-slate-200 text-slate-700 font-bold text-[9px] rounded-full uppercase tracking-widest">{activeTopic.level}</span>
                       <span className="flex items-center gap-1 text-slate-500 text-[11px] font-bold tracking-wide"><Clock size={12} /> {activeTopic.duration}</span>
                     </div>
-                    <h1 className="text-[22px] font-extrabold text-slate-900 leading-tight tracking-tight">{activeTopic.title}</h1>
                   </div>
 
                   <div className="bg-white p-5 rounded-[24px] shadow-sm border border-slate-200">
                     {activeTopic.content ? (
-                      <div className="prose prose-slate prose-blue max-w-none text-[14px] prose-headings:font-bold prose-headings:tracking-tight prose-h2:text-lg prose-h2:mt-6 prose-h2:mb-3 prose-p:text-slate-600 prose-p:leading-relaxed prose-a:text-blue-600 prose-img:rounded-xl prose-li:text-slate-600 selection:bg-blue-100 pb-2">
+                      <div className="prose prose-slate prose-blue max-w-none text-[13.5px] prose-headings:font-bold prose-headings:tracking-tight prose-h1:text-[18px] prose-h1:leading-snug prose-h1:mb-4 prose-h2:text-[15px] prose-h2:leading-snug prose-h2:mt-6 prose-h2:mb-3 prose-p:text-slate-600 prose-p:leading-relaxed prose-a:text-blue-600 prose-img:rounded-xl prose-li:text-slate-600 selection:bg-blue-100 pb-2">
                         <Markdown>{activeTopic.content}</Markdown>
                       </div>
                     ) : (
@@ -620,14 +733,28 @@ export default function App() {
                   </div>
                   
                   {activeTopic.content && (
-                    <div className="mt-6 flex justify-between items-center bg-transparent border-2 border-slate-200 border-dashed p-4 rounded-2xl active:bg-blue-50/50 hover:bg-blue-50/30 transition-colors cursor-pointer group mb-8">
-                      <div>
-                        <p className="text-[10px] font-bold text-slate-400 uppercase tracking-widest mb-1">Selanjutnya</p>
-                        <p className="font-bold text-slate-900 text-[13px]">Menuju Topik Berikutnya</p>
-                      </div>
-                      <div className="w-10 h-10 bg-white text-slate-400 rounded-full flex items-center justify-center shadow-sm border border-slate-100 text-blue-500">
-                        <ChevronRight size={20} />
-                      </div>
+                    <div className="mt-6 flex flex-col sm:flex-row gap-3 mb-8">
+                      {(() => {
+                        const allTopics = COURSE_CONTENT.flatMap(m => m.topics);
+                        const currentIndex = allTopics.findIndex(t => t.id === activeTopic.id);
+                        const hasNext = currentIndex >= 0 && currentIndex < allTopics.length - 1;
+                        
+                        if (!hasNext) return null;
+                        return (
+                          <button 
+                            onClick={openNextTopic}
+                            className="w-full flex justify-between items-center bg-transparent border-2 border-slate-200 border-dashed p-4 rounded-2xl active:bg-blue-50/50 hover:bg-blue-50/30 transition-colors cursor-pointer group"
+                          >
+                            <div className="text-left">
+                              <p className="text-[10px] font-bold text-slate-400 uppercase tracking-widest mb-1">Selanjutnya</p>
+                              <p className="font-bold text-slate-900 text-[13px]">{allTopics[currentIndex + 1].title}</p>
+                            </div>
+                            <div className="w-10 h-10 bg-white text-slate-400 rounded-full flex items-center justify-center shadow-sm border border-slate-100 group-hover:text-blue-500 transition-colors">
+                              <ChevronRight size={20} />
+                            </div>
+                          </button>
+                        );
+                      })()}
                     </div>
                   )}
 

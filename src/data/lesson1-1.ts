@@ -1,6 +1,4 @@
 export const lesson1Content = `
-# Lanskap Digital Marketing dalam Industri Pendidikan
-
 ## Pengantar – Era Baru Pemasaran Pendidikan
 
 Transformasi digital telah mengubah hampir seluruh aspek kehidupan manusia, dan institusi pendidikan tidak kebal terhadap perubahan ini. Dulu, reputasi sebuah sekolah, pesantren, lembaga kursus, atau universitas dibangun secara eksklusif melalui promosi dari mulut ke mulut (*word-of-mouth*), penyebaran brosur di persimpangan jalan, spanduk yang membentang di depan gerbang, hingga kunjungan langsung ke sekolah-sekolah sasaran (*roadshow*). Walaupun elemen-elemen tradisional ini masih memiliki posisinya, strategi pemasaran lembaga pendidikan modern tidak bisa lagi sekadar mengandalkan metode tersebut. Kita telah memasuki era baru pertumbuhan institusi pendidikan.

@@ -1,0 +1,30 @@
+export const lesson1_9Content = `
+## Perubahan Mentalitas Kebijakan Perbendaharaan "Cost vs Asset"
+
+Dalam tatanan akuntansi sejarah yayasan pendidik, pengadaan fisik barang kasat mata layaknya meubel kursi baja, aspal perkerasan halaman konblok sekolah, dan adukan semen tiang penambah lantai dua gedung adalah investasi abadi yayasan. Sayangnya, memborong lisensi perangkat lunak kode digital, tarif *cloud sever* awan Amazon, maupun tarif pemasangan kampanye pemasaran digital media Facebook adalah seolah membakar uang (Biaya Buang Habis). Disparitas (Jarak) cacat mental ini selalu berujung kepada alokasi modal adopsi teknologi di struktur proposal Rencana Anggaran Pendapatan dan Belanja Sekolah (RAPBS) yayasan selamanya ditempatkan di seksi deretan paling bawah alias uang sisa "kalau ada berlebih, baru kita benahi IT".
+
+Melintasi teritori zona krisis pasca kiamat analog kini menuntut "Re-Kalibrasi Ulang Kerangka APBY (Anggaran Yayasan)". Kepala Bendaharawan wajib memahami bahwa berinvestasi Rp 100 Juta untuk program Manajemen *Customer Relationship* (Pelayanan Ortu) dan server absensi sekuritas wajah biometrik bukan bentuk konsumsi pemborosan mesin, akan tetapi investasi kapital infrastruktur "Gedung Awan Virtual" (Virtual Infrastructure) demi menjamin retensi umur iuran SPP ratusan siswa aman tidak berkhianat putus putar arah memindah pendaftaran anak-anaknya.
+
+
+## Empat Tata Cara Melakukan Anggaran Bedah Sesar (Budget Disruption Tactics)
+
+Bila sang pemilik yayasan berkeluh, *"Uang SPP bulanan sekolah kita ini mutlak mentok jumlahnya. Tidak mungkin tiba-tiba menaikan iuran anak yatim/siswa reguler serentak demi melunasi biaya pemasanga sistem canggih ini, lantas dari dompet manakah kami menarik uang bensin transformasi alat-alat ini?"*
+
+Terdapat setidaknya 4 strategi perombakan sirkulasi darah keuangan dari keran yayasan lama yang dialihkan agar membiayai keran kehidupan teknologi revolusi tanpa harus melukai perut nafas bayaran SPP reguler di tahun pertamanya:
+
+### 1. Politik Pisau Algojo Operasional Alat Tulis & Sirkulasi Cetak Fotokopi (Zero-Paper Deflation)
+Pimpinan akan tercengang bilamana mereka mengaudit ke dalam dasar bon tagihan fotokopi buku bank mereka. Biaya tinta *printer*, ton-ase kertas buram fotokopi HVS dari jutaan lembaran soal Try-out, LKS Latihan cetak, Lembar Jawaban (LJK) bulatan LKS ujian, spanduk rapat dinas kelulusan hingga stok berkarung kertas laporan wali kelas tiap minggu kalender sekolah sungguh sanggup membakar ludes dana kisaran Rp 60 - Rp 150 Juta lebih per semesternya bagi yayasan besar.
+Alihkan sebilah tagihan biaya boros raksasa pembunuhan rim kertas ini dan tukar ke investasi perangkat modul *E-Learning* (Ujian Pilihan Ganda Android) milik Server sekolah yang dikerjakan murni pakai layar mandiri hp wali dan tablet guru masing-masing perabotnya. Laba reduksi mutabilitas kertas yang dihabisisi ke angkat nol ini sesungguhnya jauh melebih anggaran beli tagihan langganan *Server Education SaaS* apa pun per tahun kalendrnya.
+
+### 2. Mengkonversi Kebocoran Belanja "Overhead Jualan Pemasaran Kertas"
+Rampaslah semua tagihan pendanaan tahunan Panitia PPDB (Penerimaan Pendaftaran Baru) yang kerap membebani sekolah terkait: pengadaan upah sewa tenda pameran kanopi bazars, ratusan ribu selebar brosur licin laminasi artpaper, ongkos transport bayar pelaksana keliling ke SMP tetangga, maupun harga sewa tiang pasang spanduk reklame izin Dispenda pemda. Suntikan dan selamatkan nominal ini, lebbarkan penuh ke pembelian saldo tagihan iklan akun Iklan Facebook (Meta Ads) dan optimasi server tim gugus serang marketing komandan *Digital Task Force*. Kampanye internet sebarannya mencapai radius ratusan distrik kecamatan se-Nusantara sementara baliho di tiang simpang lampu merah depan masjid raya pun mati hanya menyapa segelintir kaum warga ojek belaka.
+
+### 3. Pemberlakuan Modul Iuran "Penetrasi Platform Pendidikan" (ICT Capital Fee)
+Jika sekolah sudah bertekad memboyong aplikasi penunjang raport ajaib terpusat dan layanan deteksi wajah mesin absensi gerbang otomatis SMS/WhatsApp *realtaime* masuk hp orang tua pada pagi harinya, jadikan *gimmick* rasa kecanggihan VIP itu ssebagai alibi rasional logis untuk menciptakan seksi nama pungutan baru di formulir lembaran biaya Iuran tahunan anak baru bernama "Langganan Tarif Portal & Konektivitas Keamanan Sekolah Digital Edu-Tech" (Seberan kisaran Rp 15.000 - Rp 35.000 / Bulan per kepala masuk rekening). Karena ini diposisikan dengan nama kebanggan kemewahan pelayan (bukan sekedar kata Uang SPP Polos), pikar psikololis orang tua justru menyepakati beban langganan keamanan dan kelancaran notifikasi SMS info keseharian aktivitas anaknya ini selayaknya menebus iuran wajib aplikasi Gojek Food Premium tanpa mereka menentang balik sedikit pun.
+
+### 4. Skema "Pay-As-You-Grow" Menyewa Alat (Cloud OPEX) dibandingkan Beli Fisik Awal Miliaran (Server CAPEX)
+Trik kelangsungan yayasan di awal revolusi digital adalah: jangan sekali-kali membangun ruang server fisik komputer lemari balok sendiri (Ruang Data Center khusus ber-AC) bernilai semilyar rupiah di lahan yayasan, dan merekrut karyawan tetap programer ketikan koding ahli seharga 20 juta/bulannya. 
+Tapi "Sewa-lah" apartemen komputasi di dunia awan (Amazon AWS, Google, Ali Cloud dll) dengan model pembiayaan (Software as a Services/SaaS). Bayarlah program aplikasi edukasi vendor jadi (seperti Sevima, Sisva, dll) berdasaran "Uang Cicilan Per Gelas Siswa". Jika di tahun pertama hanya 200 jiwa, yayasan bayar tagihan cloud porsi harga murah bagi 200 jiwa. Jika besoknya 8000 anak murid mendaftar, maka limit iuran sewanya baru akan ditagih pembesaranya setarak nominal 8000. Biaya mengembang dan berkerut napas selayaknya akordeon seirama aliran tunai realitas lapangan Yayasan berjalan menepis bencana bangkrut.
+
+Melalui modifikasi kecerdasan pengakalan arus kas modal Yayasan ini, segala ancaman impian transisi terlampau mahal untuk adopsi portal komputasi super akan hilang, menuntun penguasa menembus dimensi sekolah adikuasa pada level pendanaan mandiri dan paripurna sentosa berumur abadi sepuranya.
+`;

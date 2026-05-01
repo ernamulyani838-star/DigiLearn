@@ -1,4 +1,23 @@
 import { lesson1Content } from './data/lesson1-1';
+import { lesson1_2Content } from './data/lesson1-2';
+import { lesson1_3Content } from './data/lesson1-3';
+import { lesson1_4Content } from './data/lesson1-4';
+import { lesson1_5Content } from './data/lesson1-5';
+import { lesson1_6Content } from './data/lesson1-6';
+import { lesson1_7Content } from './data/lesson1-7';
+import { lesson1_8Content } from './data/lesson1-8';
+import { lesson1_9Content } from './data/lesson1-9';
+import { lesson1_10Content } from './data/lesson1-10';
+import { lesson2_1Content } from './data/lesson2-1';
+import { lesson2_2Content } from './data/lesson2-2';
+import { lesson2_3Content } from './data/lesson2-3';
+import { lesson2_4Content } from './data/lesson2-4';
+import { lesson2_5Content } from './data/lesson2-5';
+import { lesson2_6Content } from './data/lesson2-6';
+import { lesson2_7Content } from './data/lesson2-7';
+import { lesson2_8Content } from './data/lesson2-8';
+import { lesson2_9Content } from './data/lesson2-9';
+import { lesson2_10Content } from './data/lesson2-10';
 
 export interface Module {
   id: string;
@@ -22,15 +41,15 @@ export const COURSE_CONTENT: Module[] = [
     description: 'Urgensi digitalisasi: mengapa pemilik yayasan dan pimpinan wajib memimpin transisi sistem operasional dan promosi sekolah.',
     topics: [
       { id: '1-1', title: 'Urgensi Disrupsi Digital di Industri Pendidikan', level: 'Beginner', duration: '20m', content: lesson1Content },
-      { id: '1-2', title: 'Kenapa Pola Promosi Konvensional Mulai Ditinggalkan', level: 'Beginner', duration: '25m' },
-      { id: '1-3', title: 'Pergeseran Perilaku (Behavior) Siswa & Orang Tua', level: 'Intermediate', duration: '30m' },
-      { id: '1-4', title: 'Pemetaan Kesenjangan Digital (Digital Divide) Yayasan', level: 'Advanced', duration: '40m' },
-      { id: '1-5', title: 'Menghitung ROI Digitalisasi vs Biaya Tradisional', level: 'Intermediate', duration: '35m' },
-      { id: '1-6', title: 'Menyusun Visi & Blueprint Digitalisasi Yayasan 5 Tahun', level: 'Advanced', duration: '45m' },
-      { id: '1-7', title: 'Membentuk Tim "Digital Task Force" Internal Sekolah', level: 'Intermediate', duration: '30m' },
-      { id: '1-8', title: 'Mengatasi Resistensi Perubahan dari Ekosistem Guru Senior', level: 'Advanced', duration: '40m' },
-      { id: '1-9', title: 'Penyesuaian Anggaran Yayasan untuk Investasi Teknologi', level: 'Advanced', duration: '35m' },
-      { id: '1-10', title: 'Studi Kasus: Sekolah Konvensional Sukses Terdisrupsi', level: 'Beginner', duration: '30m' },
+      { id: '1-2', title: 'Kenapa Pola Promosi Konvensional Mulai Ditinggalkan', level: 'Beginner', duration: '25m', content: lesson1_2Content },
+      { id: '1-3', title: 'Pergeseran Perilaku (Behavior) Siswa & Orang Tua', level: 'Intermediate', duration: '30m', content: lesson1_3Content },
+      { id: '1-4', title: 'Pemetaan Kesenjangan Digital (Digital Divide) Yayasan', level: 'Advanced', duration: '40m', content: lesson1_4Content },
+      { id: '1-5', title: 'Menghitung ROI Digitalisasi vs Biaya Tradisional', level: 'Intermediate', duration: '35m', content: lesson1_5Content },
+      { id: '1-6', title: 'Menyusun Visi & Blueprint Digitalisasi Yayasan 5 Tahun', level: 'Advanced', duration: '45m', content: lesson1_6Content },
+      { id: '1-7', title: 'Membentuk Tim "Digital Task Force" Internal Sekolah', level: 'Intermediate', duration: '30m', content: lesson1_7Content },
+      { id: '1-8', title: 'Mengatasi Resistensi Perubahan dari Ekosistem Guru Senior', level: 'Advanced', duration: '40m', content: lesson1_8Content },
+      { id: '1-9', title: 'Penyesuaian Anggaran Yayasan untuk Investasi Teknologi', level: 'Advanced', duration: '35m', content: lesson1_9Content },
+      { id: '1-10', title: 'Studi Kasus: Sekolah Konvensional Sukses Terdisrupsi', level: 'Beginner', duration: '30m', content: lesson1_10Content },
     ]
   },
   {
@@ -38,16 +57,16 @@ export const COURSE_CONTENT: Module[] = [
     title: 'Infrastruktur IT & Sistem Informasi Sekolah (SIS) Terpadu',
     description: 'Membangun tulang punggung teknologi sekolah yang saling terhubung antara fungsi akademik, keuangan, dan komunikasi.',
     topics: [
-      { id: '2-1', title: 'Anatomi Sistem Informasi Sekolah (SIS) yang Ideal', level: 'Beginner', duration: '30m' },
-      { id: '2-2', title: 'Sentralisasi Data: Akademik, Keuangan, & Kepegawaian', level: 'Intermediate', duration: '35m' },
-      { id: '2-3', title: 'Modul Akademik: Raport Digital, e-Learning, & Manajemen', level: 'Intermediate', duration: '30m' },
-      { id: '2-4', title: 'Modul Keuangan: Digitalisasi Penagihan SPP', level: 'Advanced', duration: '45m' },
-      { id: '2-5', title: 'Server Sendiri (On-Premise) vs Cloud Computing (SaaS)', level: 'Advanced', duration: '40m' },
-      { id: '2-6', title: 'Manajemen Hak Akses (Role-Based) Admin, Guru, & Siswa', level: 'Intermediate', duration: '30m' },
-      { id: '2-7', title: 'Keamanan Database & Mitigasi Kebocoran Data Privasi', level: 'Advanced', duration: '45m' },
-      { id: '2-8', title: 'Backup, Pemulihan Bencana, & Kontinuitas Sistem', level: 'Advanced', duration: '40m' },
-      { id: '2-9', title: 'Standarisasi Perangkat Keras IT Yayasan Terpadu', level: 'Intermediate', duration: '35m' },
-      { id: '2-10', title: 'Kebijakan Wi-Fi, Internet Sehat, & Manajemen Bandwidth', level: 'Intermediate', duration: '30m' },
+      { id: '2-1', title: 'Anatomi Sistem Informasi Sekolah (SIS) yang Ideal', level: 'Beginner', duration: '30m', content: lesson2_1Content },
+      { id: '2-2', title: 'Sentralisasi Data: Akademik, Keuangan, & Kepegawaian', level: 'Intermediate', duration: '35m', content: lesson2_2Content },
+      { id: '2-3', title: 'Modul Akademik: Raport Digital, e-Learning, & Manajemen', level: 'Intermediate', duration: '30m', content: lesson2_3Content },
+      { id: '2-4', title: 'Modul Keuangan: Digitalisasi Penagihan SPP', level: 'Advanced', duration: '45m', content: lesson2_4Content },
+      { id: '2-5', title: 'Server Sendiri (On-Premise) vs Cloud Computing (SaaS)', level: 'Advanced', duration: '40m', content: lesson2_5Content },
+      { id: '2-6', title: 'Manajemen Hak Akses (Role-Based) Admin, Guru, & Siswa', level: 'Intermediate', duration: '30m', content: lesson2_6Content },
+      { id: '2-7', title: 'Keamanan Database & Mitigasi Kebocoran Data Privasi', level: 'Advanced', duration: '45m', content: lesson2_7Content },
+      { id: '2-8', title: 'Backup, Pemulihan Bencana, & Kontinuitas Sistem', level: 'Advanced', duration: '40m', content: lesson2_8Content },
+      { id: '2-9', title: 'Standarisasi Perangkat Keras IT Yayasan Terpadu', level: 'Intermediate', duration: '35m', content: lesson2_9Content },
+      { id: '2-10', title: 'Kebijakan Wi-Fi, Internet Sehat, & Manajemen Bandwidth', level: 'Intermediate', duration: '30m', content: lesson2_10Content },
     ]
   },
   {

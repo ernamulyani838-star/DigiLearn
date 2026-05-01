@@ -1,0 +1,34 @@
+export const lesson1_10Content = `
+## Profil Institusi Titik Kritis Kehancuran (Pasien Koma)
+Namanya adalah Yayasan Pendidikan Menengah SMP "Kusuma Bangsa" (nama disamarkan demi melindungi privasi kehormannya). Selayaknya sejarah dinasti, sekolah yang didirikan awal 1980-an di tanah sudut pusat keramaian ibu kota kabupaten ini sungguh menjadi macan primadona idola legendaris idaman rakyat kampung sekitar selama pergantian tiga dasawarsa (30 Tahun). Tetapi saat waktu melesat menyentuh lintasan kalender tahun 2017 ke depan pasca era invasi merebaknya sekolah-sekolah franchise modern kapitalis yang disokong balutan branding korporasi canggih dengan kaca gedung lobi wangi pendingin udara, Yayasan Kusuma Bangsa mulai sekarat (Collapsing).
+
+Indikator Kematian Bisnis Pendidikan tersebut merujuk pada pendarahan fatal sebagai berikut:
+*   Dari total target normal 8 Kelas daya tampung kelas baru, pada musim PPDB ajaran 2018 yayasan ini hanya mencatatkan pemasukan tragis tersisa 2 buah ruangan kelas doang terisi ganjil. Gelombang defisit ini bersiap memicu kebangkrutan gagal bayar upah guru tetap.
+*   Media promosinya hanya mengandalkan cetakan brosur licin dibagikan anak bimbingan OSIS berkeliling di atas jemur terik gerbang simpang lampu lalu lintas, sembari dibuang sia-sia berserak oleh ban kendaraan. Pasukan pendaftaran panitia bengong di ruang tunggu meja sepi pelamar selama tiga kalender pendaftaran dibuka.
+*   Kondisi pengadministrasian uang kantong SPP manual menggunakan rekapitulasi map excel bolong bolong telat dan sistem pembayaran kertas kuitansi tembusan menoreh sejarah defisit kebobolan tunggakan macet menembus nyaris tembus batas tak tertagih karena tak terlacak memiskinkan anggaran kas.
+
+Pimpinan ketua direktur yang terlampau menua sadar di ranjang kesadarannya: Ini saatnya membakar sekoci dan mengumumkan Deklarasi Operasi Serangan Disrupsi Teknologi "Ressurection 001" untuk menyuntikan denyut kehidupan modern ke mesin nadinya.
+
+## Kronologi Resolusi Perang: Hari 0 menuju Hari Sukses Kelahiran Berdarah-darah
+
+Penyelamatan dimulai dari meja operasi penyayatan kanker pemborosan kuno ke sistem kecerdasan digital total dengan durasi eksekusi sadis berdurasi 9 (Sembilan) Bulan.
+
+### 1. Bulan ke-1 & ke-2: Operasi Membabat Tuntas Akar Anggaran Kertas Sakit 
+Tim satuan Pimpinan Yayasan yang muda baru dan beringas merampas mutlak hak hidup segala mesin fotokopi, memboikot cetakan surat kertas peringatan lapor harian ortu wali kelas dan mengunci 0 % biaya pos cetakan tiang pasang spanduk brosur pendaftaran dari RAPB Sekolah (APBS). Semesta anggaran ini disuntikan senilai tebusan tebus total Ratusan juta Rupiah ini lurus dilontarkan kepada pendaftaran program investasi *School Managmenent Server Aplikasi Berbasis Cloud Terpusat Premium*. Seluruh aktivitas dari pendaftaran siswa, rekam jejak tunggakan lunas cicilan, hinggah notifikasi PR ujian di ponsel Ibu/bapak siswa digeser seutuhnya ke satu rahim aplikasi ini. Pelajaran pertama: Menyingkirkan kebocoran kuno logistik kertas itu sendiri mampu jadi jaminan garansi kredit pendaan bagi masa depan teknologinya.
+
+### 2. Bulan ke-3 & ke-4: Membangkitkan Prajurit Komando Serang Marketer (Task Force Siber)
+Dengan anggaran logistik PPDB lawas yang kini dibebaskan, Yayasan Kusuma Bangsa tak lagi mengirim guru honor masuk angin menyuap surat promosi di jalan. Mereka mengangkat dua alumni muda terganas di bidang penata rekayasa iklan Facebook & Intagram / Tiktok Copywriter menekan *Dashboard Facebook Ads Manager*. Yayasan mengatur sirkuit tembakan Radius 15 Kilometer persis di lintasan lokasi letak geografik rumah dan ponsel gengam ribuan ibu balita umur pendaftar calon mendaftar target keliling dari kecamatan-kecamatan target seputarnya. Dengan menanamkan tembaakan Iklan konten Video "Tur Fasilitas Sekolah Bebas Bullying Ala Eropa" selama masa PPDB H-7. Laju "Click To Whatsapp" masuk ke HP panitia meledak bak peluru artileri menembus dinding pertahanan malam tanpa henti membanjiri ruang nomor CS HP admin operator PPDB Kusuma Bangsa di malam hari liburan lebaran hari ke-tiga kalender pendaftaran sekalipun.
+
+### 3. Bulan ke-5 hinga Bulan ke-7: Penempaan Kawah Paksa Guru Bivokal Senja
+Gejolak pemberontakan dan isak tangis resistensi penolahan ketidaksanggupan mengoperasional sistem baru absensi tap-kartu tablet oleh serumpun ekosistem guru berusia di atas batas 55 tahun menjadi ranjau darat maut. Pimpinan eksekutor lalu memberlakukan Strategi (Operasi Bivocal) atau Tandem asisten di lapangan. Anggaran diturunkan untuk menghadiahi tablet stylus ergonomis empuk serta "Tunjangan Tambahan Gaji Adaptator IT Rp.200 Ribu /Bulan", dengan paksaan ramah, satu perwira guru muda Millenial OSIS diwajibkan menjagain nuntun senja menutul ibu/bapak pahlawan ini seharian. Tangis ketakutan berubah jadi ejekan cinta manis manakala Pendidik sepuh itu tak lagi kelelahan memeriksa soal karena layar kecerdasaan Aplikasi *Assessment* yang me-grading 35 Pilihan Ganda secara telat satu klik kamera mata selesai semesta koreksi nilai seisi siswa angkatannya di jam rengan sore.
+
+
+## Akhir Kepulangan Kejayaan "Ledakan Kursi Rapor Biru" (A Year Later ROI Result) 
+
+Tepat menjelang penutupan hitungan peluit akhir masa Penemrimaan calon masuk ajaran ke 2020 ini, laporan statistik *Dashboard Graphic Chart Online C-Level* Sang Pemilik menyajikan data kemenangan tempur mutlak paling buas tanpa tedeng aling:
+
+-   **Otomatisasi Penagihan Uang**: Tagihan Tunggakan utang siuman ortu jatuh amblas drastis dengan rasio 91% kelunasan lantaran server SMS-Otomatis (API Blaster Reminder Bot Whatsapp) terus konsisten menagih per tanggal jatuh tempo secara birokrasi halus menohok psikis ego ibu pejabat. Pembayaran meluncur dras menggunakana *Virtual Account QRIS Handpone*, tanpa mengantri bauh lepek gerbang loket siang harian tunai lagi.
+-   **Kemenangan "Return Of INvesment / Pimpinan Tahta PPDB"**: Tanpa menyewa satupun truk penggung dangtuda pentas terbuka luring atupun brosur lusuh dibuang tong, Iklan *Performance Meta-Ads Tracker Marketing* mencatatkan ledakan pendaftaran kuota bangku kursi terpenuhi membongkah 10 Kelas Cadangan Meledak sampai sekolah kalang kabut terpakasa Menyewa tanah penutupan Kuota Ekstra 120 bangku pendaftaran siswa masuk (Return ROI mencapai 400x peluncuran dari total taruhan uang iklannya semesta Rp.30 Juta/Bulan ).
+
+Yayasan Kusuma Bangsa bangun kembali bangkit memimpin imperium kependidikan distrik kotanya berkat 3 rahasia iman sakral pemimpingnya seutuhnya : **Berani mengkudeta anggaran boros pos cetak lama, Membentuk barikade serang siber (Digital TF) internal dan mengalihkan kompromi fiktif tradisi seniorita ke lengan pelukan asisten Robotik Otomatisasi AI.** Sekolah tersebut resmi terlahir selamat membelah generasi memutus urat nadir kiamat kiamat penutuapan ajalnya takdirnya .
+`;
